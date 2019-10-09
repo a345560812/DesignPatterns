@@ -7,6 +7,7 @@ package com.xiaoming.pattern.factory;
  */
 public class Main {
     public static void main(String[] args) {
+        // 计算器demo
         Operation ope;
         ope = OperationFactory.createOperate('+');
         ope.setNumberA(1);
