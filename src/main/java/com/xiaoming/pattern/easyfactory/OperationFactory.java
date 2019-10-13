@@ -1,4 +1,4 @@
-package com.xiaoming.pattern.factory;
+package com.xiaoming.pattern.easyfactory;
 
 public class OperationFactory {
     public static Operation createOperate(char ope) {

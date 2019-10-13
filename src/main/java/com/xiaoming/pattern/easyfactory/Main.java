@@ -1,4 +1,4 @@
-package com.xiaoming.pattern.factory;
+package com.xiaoming.pattern.easyfactory;
 /*
 ①简单工厂模式属于创建型模式，根据外界给定的信息来决定究竟创建哪个具体类的实例。
 ②降低了程序的耦合性，增加了程序的可扩展性。该种模式集中了所有实例的创建逻辑，违反了高内聚责任分配原则。

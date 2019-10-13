@@ -1,4 +1,4 @@
-package com.xiaoming.pattern.factory;
+package com.xiaoming.pattern.easyfactory;
 
 public abstract class Operation {
     private double numberA = 0;

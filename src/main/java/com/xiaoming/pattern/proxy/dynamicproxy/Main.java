@@ -15,6 +15,8 @@ JDK实现动态代理需要实现类通过接口定义业务方法，对于没�
 public class Main {
     public static void main(String[] args) {
         BuyHouse buyHouse = new BuyHouseImpl();
+        Object ob =  new Object();
+
         System.out.println("看看:" + buyHouse.getClass());
         BuyHouse proxyBuyHouse = (BuyHouse) Proxy.newProxyInstance(BuyHouse.class.getClassLoader(),
                 new Class[]{BuyHouse.class}, new DynamicProxyHandler(buyHouse));
